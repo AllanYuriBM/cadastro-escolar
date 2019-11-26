@@ -1,4 +1,6 @@
-package com.darksiders.hbsis.aluno;
+package com.darksiders.hbsis.service;
+
+import com.darksiders.hbsis.dto.AlunoDTO;
 
 public class AlunoService {
 

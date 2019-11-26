@@ -1,5 +1,6 @@
-package com.darksiders.hbsis.aluno;
+package com.darksiders.hbsis.repository;
 
+import com.darksiders.hbsis.model.Aluno;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 

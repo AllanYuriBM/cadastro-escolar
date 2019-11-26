@@ -1,7 +1,5 @@
-package com.darksiders.hbsis.materia;
+package com.darksiders.hbsis.model;
 
-import com.darksiders.hbsis.nota.Nota;
-import com.darksiders.hbsis.professor.Professor;
 import lombok.*;
 
 import javax.persistence.*;

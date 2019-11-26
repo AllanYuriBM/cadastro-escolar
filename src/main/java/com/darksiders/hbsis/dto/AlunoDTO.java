@@ -1,6 +1,6 @@
-package com.darksiders.hbsis.aluno;
+package com.darksiders.hbsis.dto;
 
-import com.darksiders.hbsis.turma.Turma;
+import com.darksiders.hbsis.model.Turma;
 import lombok.*;
 
 @Getter

@@ -1,6 +1,6 @@
-package com.darksiders.hbsis.professor;
+package com.darksiders.hbsis.repository;
 
-import com.darksiders.hbsis.aluno.Aluno;
+import com.darksiders.hbsis.model.Professor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

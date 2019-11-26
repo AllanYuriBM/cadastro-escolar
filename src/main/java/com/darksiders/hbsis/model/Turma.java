@@ -1,6 +1,6 @@
-package com.darksiders.hbsis.turma;
+package com.darksiders.hbsis.model;
 
-import com.darksiders.hbsis.aluno.Aluno;
+import com.darksiders.hbsis.model.Aluno;
 import lombok.*;
 
 import javax.persistence.*;

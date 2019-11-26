@@ -1,4 +1,4 @@
-package com.darksiders.hbsis.trimestre;
+package com.darksiders.hbsis.model;
 
 public enum Trimestre {
 

@@ -1,8 +1,5 @@
-package com.darksiders.hbsis.boletim;
+package com.darksiders.hbsis.model;
 
-import com.darksiders.hbsis.aluno.Aluno;
-import com.darksiders.hbsis.materia.Materia;
-import com.darksiders.hbsis.trimestre.Trimestre;
 import lombok.*;
 
 import javax.persistence.*;

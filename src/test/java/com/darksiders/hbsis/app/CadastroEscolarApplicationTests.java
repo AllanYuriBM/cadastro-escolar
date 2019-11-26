@@ -1,4 +1,4 @@
-package com.darksiders.hbsis.cadastro_escolar;
+package com.darksiders.hbsis.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

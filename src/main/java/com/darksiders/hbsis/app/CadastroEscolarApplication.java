@@ -1,4 +1,4 @@
-package com.darksiders.hbsis.cadastro_escolar;
+package com.darksiders.hbsis.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

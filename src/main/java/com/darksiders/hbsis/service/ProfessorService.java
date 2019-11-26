@@ -1,4 +1,6 @@
-package com.darksiders.hbsis.professor;
+package com.darksiders.hbsis.service;
+
+import com.darksiders.hbsis.dto.ProfessorDTO;
 
 public class ProfessorService {
     public String cadastrarProfessor(ProfessorDTO professorDTO) {
