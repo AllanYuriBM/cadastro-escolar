@@ -16,6 +16,11 @@ import javax.persistence.*;
 @Entity
 public class Nota {
 
+    @Id
+    @GeneratedValue
+    @Column(name = "id")
+    private Integer id;
+
     @Column(name = "valor_nota")
     private Float valorNota;
 
