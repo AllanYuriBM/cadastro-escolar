@@ -1,6 +1,8 @@
 package com.darksiders.hbsis.controller;
 
 import com.darksiders.hbsis.dto.ProfessorDTO;
+import com.darksiders.hbsis.exception.CadastroException;
+import com.darksiders.hbsis.model.Professor;
 import com.darksiders.hbsis.service.ProfessorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,13 +24,8 @@ public class ProfessorController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public ResponseEntity<String> cadastrarProfessor(ProfessorDTO professorDTO) {
-        try {
-            String mensagem = professorService.cadastrarProfessor(professorDTO);
-            return new ResponseEntity<>(mensagem, HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>("Erro interno ao cadastrar professor! Tente novamente.", HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    public ResponseEntity<ProfessorDTO> cadastrarProfessor(ProfessorDTO professorDTO) throws CadastroException {
+        return new ResponseEntity<ProfessorDTO>(professorService.cadastrarProfessor(professorDTO), HttpStatus.OK);
     }
 
 }
